@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Collections;
-
-namespace Ninterfaces.IOC
+﻿namespace Ninterfaces.IOC
 {
+    using System;
+    using System.Collections.Generic;
+
     public interface IObjectResolver
     {
         object Resolve(Type serviceType);

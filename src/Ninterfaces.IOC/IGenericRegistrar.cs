@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace Ninterfaces.IOC
+﻿namespace Ninterfaces.IOC
 {
     public interface IGenericRegistrar
     {
@@ -11,8 +6,14 @@ namespace Ninterfaces.IOC
 
         void Register<TService, TImplementation>(string name) where TService : TImplementation;
 
-        void RegisterInstance<TService>(TService instance);
+        void RegisterInstance<TService>(TService instance) where TService : class;
 
-        void RegisterInstanceNamed<TService>(TService instance);
+        void RegisterInstance<TService>(TService instance, string name) where TService : class;
+
+        void RegisterSingleton<TService, TImplementation>() where TService : TImplementation;
+
+        void RegisterSingleton<TService, TImplementation>(string name) where TService : TImplementation;
+
+
     }
 }

@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace Ninterfaces.IOC
+﻿namespace Ninterfaces.IOC
 {
+    using System;
+
     public interface IServiceContainer: IResolver, IDisposable 
     {
         IServiceContainer CreateChildContainer();
