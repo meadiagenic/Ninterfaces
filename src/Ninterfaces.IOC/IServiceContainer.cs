@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Ninterfaces.IOC
 {
-    public interface IServiceContainer: IServiceResolver, IDisposable 
+    public interface IServiceContainer: IResolver, IDisposable 
     {
         IServiceContainer CreateChildContainer();
     }
