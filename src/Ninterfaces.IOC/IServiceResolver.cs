@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Ninterfaces.IOC
 {
-    public interface IServiceResolver : IGenericServiceResolver, IResolver
+    public interface IServiceResolver : IGenericResolver, IResolver
     {
 
     }

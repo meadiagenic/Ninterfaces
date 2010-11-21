@@ -40,7 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IGenericServiceResolver.cs" />
+    <Compile Include="IGenericRegistrar.cs" />
+    <Compile Include="IGenericResolver.cs" />
     <Compile Include="IResolver.cs" />
     <Compile Include="IServiceContainer.cs" />
     <Compile Include="IServiceResolver.cs" />

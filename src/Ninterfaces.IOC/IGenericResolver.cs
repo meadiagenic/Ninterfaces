@@ -5,7 +5,7 @@
     using System.Linq;
     using System.Text;
 
-    public interface IGenericServiceResolver
+    public interface IGenericResolver
     {
         TService Resolve<TService>();
 

@@ -10,7 +10,7 @@ namespace Ninterfaces.IOC
     {
         object Resolve(Type serviceType);
 
-        object ResolveNamed(Type serviceType, string name);
+        object Resolve(Type serviceType, string name);
 
         IEnumerable<object> ResolveAll(Type serviceType);
     }
