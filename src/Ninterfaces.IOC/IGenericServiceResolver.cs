@@ -7,10 +7,10 @@
 
     public interface IGenericServiceResolver
     {
-        T Resolve<T>();
+        TService Resolve<TService>();
 
-        T Resolve<T>(string name);
+        TService Resolve<TService>(string name);
 
-        IEnumerable<T> ResolveAll<T>();
+        IEnumerable<TService> ResolveAll<TService>();
     }
 }

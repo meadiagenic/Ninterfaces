@@ -41,6 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IGenericServiceResolver.cs" />
+    <Compile Include="IResolver.cs" />
+    <Compile Include="IServiceContainer.cs" />
     <Compile Include="IServiceResolver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
