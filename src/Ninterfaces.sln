@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ninterfaces.IOC", "Ninterfaces.IOC\Ninterfaces.IOC.csproj", "{BC3A50A2-A0F1-4B71-B323-A8DA37955F71}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ninterfaces.Logging", "Ninterfaces.Logging\Ninterfaces.Logging.csproj", "{B703A9AE-BD9B-4B97-B196-D391EA7F88E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ninterfaces.Caching", "Ninterfaces.Caching\Ninterfaces.Caching.csproj", "{62742472-7E3D-4C0C-9CAE-F3BA52F4159E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{BC3A50A2-A0F1-4B71-B323-A8DA37955F71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC3A50A2-A0F1-4B71-B323-A8DA37955F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC3A50A2-A0F1-4B71-B323-A8DA37955F71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B703A9AE-BD9B-4B97-B196-D391EA7F88E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B703A9AE-BD9B-4B97-B196-D391EA7F88E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B703A9AE-BD9B-4B97-B196-D391EA7F88E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B703A9AE-BD9B-4B97-B196-D391EA7F88E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62742472-7E3D-4C0C-9CAE-F3BA52F4159E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62742472-7E3D-4C0C-9CAE-F3BA52F4159E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62742472-7E3D-4C0C-9CAE-F3BA52F4159E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62742472-7E3D-4C0C-9CAE-F3BA52F4159E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
