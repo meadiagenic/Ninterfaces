@@ -1,6 +1,6 @@
 ﻿namespace Ninterfaces.IOC
 {
-    public interface IGenericRegistrar
+    public interface IGenericRegistrar : IFluent
     {
         void Register<TService, TImplementation>() where TService : TImplementation;
 

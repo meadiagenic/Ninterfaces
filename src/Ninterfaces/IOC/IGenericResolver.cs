@@ -2,7 +2,7 @@
 {
     using System.Collections.Generic;
 
-    public interface IGenericResolver
+    public interface IGenericResolver : IFluent
     {
         bool Contains<TService>();
 

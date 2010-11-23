@@ -8,8 +8,8 @@
     <ProjectGuid>{BC3A50A2-A0F1-4B71-B323-A8DA37955F71}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Ninterfaces.IOC</RootNamespace>
-    <AssemblyName>Ninterfaces.IOC</AssemblyName>
+    <RootNamespace>Ninterfaces</RootNamespace>
+    <AssemblyName>Ninterfaces</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -33,21 +33,20 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
+    <Reference Include="System.Web" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Caching\CacheBase.cs" />
+    <Compile Include="Caching\ICache.cs" />
     <Compile Include="IFluent.cs" />
+    <Compile Include="IOC\IContainerModule.cs" />
     <Compile Include="IOC\IFactoryRegistrar.cs" />
     <Compile Include="IOC\IGenericRegistrar.cs" />
     <Compile Include="IOC\IGenericResolver.cs" />
     <Compile Include="IOC\IObjectRegistrar.cs" />
     <Compile Include="IOC\IObjectResolver.cs" />
     <Compile Include="IOC\IRegistrar.cs" />
-    <Compile Include="IOC\IServiceContainer.cs" />
+    <Compile Include="IOC\IContainer.cs" />
     <Compile Include="IOC\IResolver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

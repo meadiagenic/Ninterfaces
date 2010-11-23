@@ -2,18 +2,18 @@
 {
     using System;
 
-    public interface IObjectRegistrar
+    public interface IObjectRegistrar : IFluent
     {
         void Register(Type serviceType, Type implementationType);
 
-        void Register(Type serviceType, Type implementationType, string name);
+        void Register(string name, Type serviceType, Type implementationType);
 
         void RegisterInstance(Type serviceType, object instance);
 
-        void RegisterInstance(Type serviceType, object instance, string name);
+        void RegisterInstance(string name, Type serviceType, object instance);
 
         void RegisterSingleton(Type serviceType, Type implementationType);
 
-        void RegisterSingleton(Type serviceType, Type implementationType, string name);
+        void RegisterSingleton(string name, Type serviceType, Type implementationType);
     }
 }
