@@ -40,12 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IFactoryRegistrar.cs" />
-    <Compile Include="IGenericRegistrar.cs" />
-    <Compile Include="IGenericResolver.cs" />
-    <Compile Include="IObjectResolver.cs" />
-    <Compile Include="IServiceContainer.cs" />
-    <Compile Include="IResolver.cs" />
+    <Compile Include="IFluent.cs" />
+    <Compile Include="IOC\IFactoryRegistrar.cs" />
+    <Compile Include="IOC\IGenericRegistrar.cs" />
+    <Compile Include="IOC\IGenericResolver.cs" />
+    <Compile Include="IOC\IObjectRegistrar.cs" />
+    <Compile Include="IOC\IObjectResolver.cs" />
+    <Compile Include="IOC\IRegistrar.cs" />
+    <Compile Include="IOC\IServiceContainer.cs" />
+    <Compile Include="IOC\IResolver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

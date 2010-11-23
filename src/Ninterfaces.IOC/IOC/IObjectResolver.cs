@@ -5,6 +5,10 @@
 
     public interface IObjectResolver
     {
+        bool Contains(Type serviceType);
+
+        bool Contains(Type serviceType, string name);
+
         object Resolve(Type serviceType);
 
         object Resolve(Type serviceType, string name);
