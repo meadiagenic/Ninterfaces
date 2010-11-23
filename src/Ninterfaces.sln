@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ninterfaces", "Ninterfaces.IOC\Ninterfaces.csproj", "{BC3A50A2-A0F1-4B71-B323-A8DA37955F71}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ninterfaces", "Ninterfaces\Ninterfaces.csproj", "{BC3A50A2-A0F1-4B71-B323-A8DA37955F71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
